@@ -2,6 +2,7 @@ import numpy as np
 from sklearn.decomposition import PCA
 from sklearn.mixture import GaussianMixture
 from sklearn.metrics import silhouette_score
+import pandas as pd
 
 # Step 1: Simulated User-Item Ratings Matrix (Sparse Matrix)
 # Rows: Users, Columns: Items
